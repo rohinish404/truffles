@@ -10,7 +10,7 @@ import ContactsIcon from '@mui/icons-material/Contacts';
 function Sidebar() {
   return (
     <div className='w-[20%] p-5 text-sm'>
-      <img className='mb-8' src='Logo.png'></img>
+      <Link href='/'><img className='mb-8' src='Logo.png'></img></Link>
       <ul className='mx-auto px-2'>
           <Link href='/'><li className='mb-7 bg-white rounded p-2'><DashboardIcon className='grad  text-white rounded mr-4'/>Dashboard</li></Link>
           <Link href='/'><li className='mb-7 px-2'><ReceiptIcon className='side_btns'/>Invoice</li></Link>
