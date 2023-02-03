@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.grad{
+    background: linear-gradient(95.79deg, #A76FFF 10.21%, #7445F8 100%);
+    border-radius: 8px;
+    padding: 5px;
+}
+.side_btns{
+    background: #FFFFFF;
+    box-shadow: 0px 4px 6px -1px rgba(0, 0, 0, 0.12), 0px 2px 4px -1px rgba(0, 0, 0, 0.07);
+    border-radius: 8px;
+    padding: 4px;
+    margin-right: 18px;
+}
+.comps{
+    background: #FFFFFF;
+box-shadow: 0px 20px 27px rgba(0, 0, 0, 0.05);
+border-radius: 16px;
+}
